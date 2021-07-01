@@ -1,0 +1,85 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    /* margin-top: 100px; */
+    padding:0;
+    height: 100%;
+
+}
+a {
+    text-decoration:none;
+}
+
+.container {
+    
+    text-align: center;
+    margin:auto;
+
+}
+
+.container_proizvodi {
+    /* border: 3px solid rgb(224, 183, 107); */
+    /* display: inline-block; */
+    /* text-align: center; */
+    margin: auto;
+    /* width: 100%; */
+    /* display: flex;
+    flex-direction: row; */
+    padding-top: 100px;
+    
+    /* float: left; */
+}
+
+.proizvod_kutija {
+    /* border:2px solid  rgb(148, 65, 65); */
+    padding: 30px;
+    
+    /* width:200px;
+    height:350px;  */
+    float: left;
+    margin:10px;
+    /* margin: auto; */
+
+}   
+/* .lista {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(150, 150, 150);
+} */
+ul {
+    list-style:none;
+    display: inline-block;
+    text-align:center;
+
+}
+.slika_proizvoda {
+    border: 1 solid white;
+    width: 200px;
+
+}
+.div_slika_proizvoda {
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+}
+.detaljnije {
+    margin-top: 100px;
+}
+.add_button {
+    border: none;
+    background-color: white;
+    font-size: 1em;
+}
+.add_button:hover {
+    font-weight: 600;
+    color: rgb(58, 51, 51);
+    cursor: pointer;
+}

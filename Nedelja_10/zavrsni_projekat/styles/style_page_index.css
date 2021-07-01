@@ -1,0 +1,15 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+}
+.main_proizvodi_container {
+    /* border: 1px solid orange; */
+    width: 95%;
+    margin: auto;
+    padding: 5%, 5%;
+    
+}

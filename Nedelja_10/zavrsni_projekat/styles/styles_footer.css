@@ -1,0 +1,59 @@
+.footer_container {
+    width: 100vw;
+    height: 400px;
+    overflow: auto;
+
+    
+}
+
+#sub_title {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.subscription {
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+#mail_sub {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(207, 204, 204, 0.685);
+}
+
+#button_subscribe {
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+#button_subscribe:hover {
+    cursor: pointer;  
+}
+
+.input_sub {
+    padding: 10px;
+}
+
+.social_links {
+    position: relative;
+    display: inline-block;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.copyrights {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    text-align: center;
+    font-size: 10px;
+
+}
